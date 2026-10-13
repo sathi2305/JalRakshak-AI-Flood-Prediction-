@@ -1,203 +1,225 @@
-# JAI RAKSHAK — AI-Powered Flood Prediction & Early Warning System
+<div align="center">
 
-> **Official Problem Statement:** AI-Powered Flood Prediction Tool  
-> **Event:** Hack Era 1.0 by Erazone  
-> **System Architecture:** React 19 + TypeScript + Vite + Tailwind CSS + Leaflet GIS + Python FastAPI + Hydrological Risk Engine
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c9cdb&height=220&section=header&text=JalRakshak%20AI&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Flood%20Prediction%20%26%20Early%20Warning&descAlignY=60&descSize=20" alt="JalRakshak AI banner" width="100%"/>
 
----
+### 🌊 Predict floods early. Protect lives. Build resilient communities.
 
-## 1. Executive Summary
+<br/>
 
-**JAI RAKSHAK** ("Protector of the Waters") is an AI-powered flood surveillance, geospatial vulnerability assessment, and multi-agency early warning platform designed for India's monsoonal flood crisis.
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-2c9cdb?style=for-the-badge)](https://jal-rakshak-ai-flood-prediction.vercel.app/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jal-rakshak-ai-flood-prediction.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathi2305/JalRakshak-AI-Flood-Prediction-)
 
-By harmonizing precipitation telemetry from the **India Meteorological Department (IMD)**, river gauge and reservoir discharge telemetry from the **Central Water Commission (CWC)**, and high-resolution satellite raster observations from **NASA GPM & ISRO Bhuvan**, Jai Rakshak provides automated, transparent decision support for the **National Disaster Response Force (NDRF)** and State Disaster Management Authorities (SDMA).
+![Status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)
+![Made with Love](https://img.shields.io/badge/made%20with-❤-red?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/sathi2305/JalRakshak-AI-Flood-Prediction-?style=flat-square&color=yellow)
+![Forks](https://img.shields.io/github/forks/sathi2305/JalRakshak-AI-Flood-Prediction-?style=flat-square&color=orange)
 
----
+<br/>
 
-## 2. Key Capabilities & Features
+**[🌐 Live Demo](https://jal-rakshak-ai-flood-prediction.vercel.app/)** &nbsp;•&nbsp; **[✨ Features](#-features)** &nbsp;•&nbsp; **[🛠 Tech Stack](#-tech-stack)** &nbsp;•&nbsp; **[⚙️ Getting Started](#️-getting-started)** &nbsp;•&nbsp; **[🤝 Contributing](#-contributing)**
 
-1. **Pixel-Perfect Authoritative Command Dashboard**
-   - Dark navy command header (`#10294B`) with official emblem, NDRF 24x7 emergency hotline badge, and unread critical alert indicator.
-   - 4 High-Density Key Performance Indicator (KPI) cards:
-     - **Total Rainfall (24h):** Real-time cumulative precipitation vs historical norm.
-     - **River Water Level:** Real-time gauge vs official Danger Threshold.
-     - **Flood Risk Level:** Composite hydrological vulnerability score (0–100).
-     - **Affected Areas:** Monitored districts and rivers breaching safety marks.
-
-2. **Interactive India Geospatial Flood-Risk Map**
-   - Real interactive Leaflet GIS map centered on India.
-   - Dynamic risk markers with color coding:
-     - 🔴 **Very High Risk** (`#F5222D`)
-     - 🟠 **High Risk** (`#FF9418`)
-     - 🟡 **Moderate Risk** (`#FFD52A`)
-     - 🟢 **Low Risk** (`#16B83F`)
-   - Interactive popups, risk radius buffers, quick district locator, and basin filters (Brahmaputra, Ganga, Yamuna, Godavari, Mahanadi, Tapi, Cauvery).
-
-3. **Dual-Telemetry Trend Chart**
-   - Synchronized dual-axis visualization showing **Rainfall (blue bars)** and **River Level (purple line)** alongside the red dashed **Danger Mark (76.0m)**.
-   - 24-hour and 7-day retrospective analysis.
-
-4. **Transparent Hydrological Risk Engine**
-   - Multi-factor deterministic scoring without black-box hallucination:
-     - **River Gauge Breach:** 45% Weight
-     - **24h Precipitation Intensity:** 35% Weight
-     - **Antecedent Soil Moisture Saturation:** 15% Weight
-     - **Catchment Drainage Deficit:** 5% Weight
-   - Interactive parameter sandbox allowing disaster managers to simulate what-if storm surges.
-
-5. **Common Alerting Protocol (CAP) Emergency Broadcaster**
-   - Simulated geofenced SMS and Cell Broadcast dissemination for impacted subdivisions.
-
-6. **Automated Situation Report (SITREP) Generator**
-   - Generates official vulnerability briefings with one-click **CSV Data Export** and **Print-Ready Dossiers**.
+</div>
 
 ---
 
-## 3. Windows Setup & Run Instructions (Beginner-Friendly PowerShell)
+<div align="center">
+
+## 📖 About
+
+</div>
+
+<p align="center">
+<b>JalRakshak AI</b> ("Jal Rakshak" means <i>Protector of Water</i>) is an intelligent flood prediction platform that analyzes environmental and hydrological data to forecast flood risk and deliver timely, easy-to-understand alerts.
+<br/><br/>
+Our goal is simple: give communities and authorities the lead time they need to prepare, evacuate and reduce damage.
+</p>
+
+---
+
+<div align="center">
+
+## 🚀 Live Demo
+
+<a href="https://jal-rakshak-ai-flood-prediction.vercel.app/">
+  <img src="https://img.shields.io/badge/👉_Try_JalRakshak_AI_Now-2c9cdb?style=for-the-badge&logoColor=white" alt="Try the live demo"/>
+</a>
+
+<br/><br/>
+
+🔗 **https://jal-rakshak-ai-flood-prediction.vercel.app/**
+
+<!-- Add a screenshot or GIF here:
+<img src="./assets/demo.gif" alt="JalRakshak AI demo" width="85%"/>
+-->
+
+</div>
+
+---
+
+<div align="center">
+
+## ✨ Features
+
+</div>
+
+<div align="center">
+
+| 🤖 **AI Predictions** | 📊 **Risk Assessment** | 🚨 **Early Warnings** |
+|:---:|:---:|:---:|
+| Machine-learning model forecasts flood likelihood from input data | Clear risk levels so anyone can understand the situation at a glance | Timely alerts that support faster, safer decisions |
+
+| 🎨 **Modern Interface** | 📱 **Fully Responsive** | ⚡ **Fast & Reliable** |
+|:---:|:---:|:---:|
+| Clean, intuitive dashboard | Works on mobile, tablet and desktop | Deployed on Vercel for quick global access |
+
+</div>
+
+---
+
+<div align="center">
+
+## 🛠 Tech Stack
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+<!-- Edit the badges above to match what your project actually uses (React, Next.js, Flask, scikit-learn, TensorFlow, etc.) -->
+
+</div>
+
+---
+
+<div align="center">
+
+## 🧠 How It Works
+
+</div>
+
+<div align="center">
+
+```mermaid
+flowchart LR
+    A[📥 Input Data<br/>Rainfall · River Level · Weather] --> B[🧹 Preprocessing]
+    B --> C[🤖 AI Model]
+    C --> D[📊 Flood Risk Score]
+    D --> E[🚨 Alert & Dashboard]
+```
+
+</div>
+
+---
+
+<div align="center">
+
+## ⚙️ Getting Started
+
+</div>
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (version 18 or 20 LTS recommended)
-- [Python](https://www.python.org/downloads/) (version 3.10+ recommended)
-- Git for Windows
 
-### Step 1: Open PowerShell in the Project Root
-```powershell
-# Verify versions
-node --version
-npm --version
-python --version
-```
+- Git
+- Node.js (v18+) and/or Python (3.9+), depending on the parts you run
 
-### Step 2: Frontend Installation & Startup
-```powershell
-# 1. Install frontend dependencies
-npm install
+### Installation
 
-# 2. Launch the Vite development server (runs on Port 3000)
+```bash
+# 1. Clone the repository
+git clone https://github.com/sathi2305/JalRakshak-AI-Flood-Prediction-.git
+
+# 2. Move into the project folder
+cd JalRakshak-AI-Flood-Prediction-
+
+# 3. Install dependencies
+npm install          # for the web app
+# pip install -r requirements.txt   # for the ML / backend part
+
+# 4. Start the development server
 npm run dev
 ```
-Open your browser at `http://localhost:3000`.
 
-### Step 3: Python Backend Installation & Startup (Optional)
-```powershell
-# 1. Navigate to the backend directory
-cd backend
+Then open **http://localhost:3000** (or the port shown in your terminal).
 
-# 2. Create a virtual environment
-python -m venv venv
+---
 
-# 3. Activate the virtual environment
-.\venv\Scripts\Activate.ps1
+<div align="center">
 
-# 4. Install backend dependencies
-pip install -r requirements.txt
+## 📂 Project Structure
 
-# 5. Launch the FastAPI server
-uvicorn backend.app.main:app --reload --port 8000
-```
-API Documentation will be live at `http://localhost:8000/docs`.
+</div>
 
-### Step 4: Run Automated Tests
-```powershell
-# Frontend TypeScript check
-npm run lint
-
-# Backend pytest execution
-pytest backend/tests/
+```text
+JalRakshak-AI-Flood-Prediction-/
+├── public/            # Static assets
+├── src/               # Application source code
+├── model/             # Trained model & ML scripts
+├── README.md
+└── ...
 ```
 
----
-
-## 4. API Endpoints Reference
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/health` | Service health status & telemetry health |
-| `GET` | `/api/dashboard/summary` | Consolidated 4-card KPI summary & latest timestamps |
-| `GET` | `/api/weather/current` | Current IMD AWS rainfall observations |
-| `GET` | `/api/weather/history` | Historical 7-day catchment precipitation |
-| `GET` | `/api/river-levels` | CWC river gauge stations & danger thresholds |
-| `GET` | `/api/flood-risk` | Active composite vulnerability index |
-| `POST` | `/api/flood-risk/calculate` | Run transparent risk score engine on custom inputs |
-| `GET` | `/api/alerts` | Multi-agency warning bulletins (filter by severity) |
-| `GET` | `/api/districts/risk` | Full district table with GIS coordinates & trends |
-| `GET` | `/api/data-sources/status` | Ingestion status for IMD, CWC, NASA GPM & ISRO |
-| `GET` | `/api/recommendations` | Standard Operating Protocols (SOPs) & helplines |
+<!-- Update this tree to match your real folder structure. -->
 
 ---
 
-## 5. Hack Era 1.0 — Six-Slide Presentation Outline
+<div align="center">
 
-- **Slide 1: Title & Vision**
-  - *Title:* JAI RAKSHAK: AI-Powered Flood Prediction & Early Warning System
-  - *Subtitle:* Monsoonal flood resilience through unified hydrological intelligence
-  - *Team:* Hack Era 1.0 Finalists · Track: AI-Powered Flood Prediction Tool
-  - *Key takeaway:* Reducing flood loss of life through sub-hourly telemetry convergence.
+## 🗺 Roadmap
 
-- **Slide 2: The Core Problem**
-  - India suffers annual monsoonal flood damages exceeding ₹10,000 Crores.
-  - Data siloing: Weather forecasts (IMD), river gauges (CWC), and satellite maps (ISRO) are traditionally segmented across separate portals.
-  - Lack of transparent early warnings: Communities receive flood notices only after water reaches settlement perimeters.
+</div>
 
-- **Slide 3: Technical Innovation & Architecture**
-  - Unified multi-source telemetry adapter layer.
-  - Deterministic hydrological risk scoring (Rainfall 35%, Gauge Breach 45%, Soil Saturation 15%, Drainage Deficit 5%).
-  - Real interactive Leaflet GIS visualization with zero mock images.
-
-- **Slide 4: Live Command Operations & Demonstration**
-  - Exact reference command dashboard matching NDRF field operational workflows.
-  - Interactive "What-If" storm surge simulation sandbox.
-  - CAP-compliant alert broadcasting to notify vulnerable panchayats in < 60 seconds.
-
-- **Slide 5: Impact & Real-World Feasibility**
-  - Covers 8 major Indian river basins (Brahmaputra, Ganga, Yamuna, Godavari, Krishna, Mahanadi, Tapi, Cauvery).
-  - Open data compliance: Designed to consume published open APIs without private cloud vendor lock-in.
-  - Accessible via low-bandwidth devices.
-
-- **Slide 6: Roadmap & Scale**
-  - Phase 1 (Completed): Unified dashboard, deterministic risk engine, Leaflet GIS, and FastAPI backend.
-  - Phase 2: Incorporation of hydrodynamic 2D HEC-RAS flood inundation modeling.
-  - Phase 3: Offline PWA integration and hyper-local vernacular SMS dispatch in Hindi, Assamese, Bengali, and Malayalam.
+- [x] AI-based flood risk prediction
+- [x] Live deployment on Vercel
+- [ ] Real-time weather & river-level API integration
+- [ ] Location-based alerts (SMS / email / push)
+- [ ] Interactive flood risk map
+- [ ] Multi-language support (English, Hindi, Tamil)
 
 ---
 
-## 6. Demonstration Video Script (2-Minute Pitch)
+<div align="center">
 
-- **[0:00 - 0:20] The Hook & Mission**
-  *(Camera on Jai Rakshak Dashboard)*
-  "Every monsoon, rising waters in the Brahmaputra and Ganga basins displace millions. Traditional disaster response struggles with fragmented telemetry. Today, we present **Jai Rakshak** — a unified AI-powered early warning command system for Hack Era 1.0."
+## 🤝 Contributing
 
-- **[0:20 - 0:45] The Command Dashboard**
-  *(Cursor moves across KPI cards)*
-  "Our central dashboard gives disaster commanders four immediate KPI metrics: 24-hour cumulative rainfall, river water levels relative to official danger thresholds, the composite flood risk index, and the count of vulnerable districts."
+</div>
 
-- **[0:45 - 1:15] Interactive Geospatial Surveillance & Trends**
-  *(Demonstrates zooming in on Kamrup Metro and clicking station pin)*
-  "On the interactive India map, station pins pulse based on severity. Clicking on Kamrup Metro in Guwahati instantly updates our dual-series trend chart, correlating rising rainfall bars with river gauge breaches above the 76-meter danger mark."
+<p align="center">
+Contributions, issues and feature requests are welcome!
+</p>
 
-- **[1:15 - 1:40] Transparent Risk Engine Sandbox**
-  *(Navigates to Risk Analysis view, moves sliders)*
-  "Unlike opaque black boxes, Jai Rakshak features a transparent, deterministic hydrological engine. Managers can adjust rainfall, river height, or soil saturation in real time to simulate impending storm surges and inspect contributing factor weights."
-
-- **[1:40 - 2:00] Rapid Action & Official Integration**
-  *(Shows alert dispatch modal and CSV SITREP export)*
-  "When an emergency threshold is breached, commanders can dispatch CAP-compliant SMS alerts and export standardized Situation Reports for NDMA. Jai Rakshak turns raw telemetry into life-saving preparedness."
+1. Fork the project
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m "Add AmazingFeature"`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request
 
 ---
 
-## 7. Instructions for Creating a Lightweight Submission ZIP (< 50 MB)
+<div align="center">
 
-Run this PowerShell command in the project directory:
+## 📄 License
 
-```powershell
-# Exclude heavy folders (node_modules, virtual envs, build artifacts)
-$exclude = @("node_modules", "dist", "venv", ".git", ".aistudio")
-Get-ChildItem -Path . -Exclude $exclude | Compress-Archive -DestinationPath "Jai_Rakshak_Submission.zip"
-```
-The resulting archive will be **under 5 MB**, well below the 50 MB hackathon limit!
+Distributed under the **MIT License**. See `LICENSE` for more information.
 
----
+<br/>
 
-## 8. Safety & Data Integrity Disclaimer
+## 👨‍💻 Author
 
-*Jai Rakshak is an engineering prototype developed for Hack Era 1.0 by Erazone. In actual emergency scenarios, evacuation orders and disaster relief instructions must strictly originate from verified local District Magistrates, the National Disaster Management Authority (NDMA), and the Central Water Commission (CWC).*
+**Sathi**
+
+[![GitHub](https://img.shields.io/badge/GitHub-sathi2305-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathi2305)
+
+<br/>
+
+### ⭐ If you find this project useful, please give it a star!
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c9cdb,50:203a43,100:0f2027&height=120&section=footer" alt="footer" width="100%"/>
+
+<sub>Built with 💙 to protect communities from floods.</sub>
+
+</div>
