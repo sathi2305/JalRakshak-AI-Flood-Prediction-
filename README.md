@@ -1,225 +1,257 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c9cdb&height=220&section=header&text=JalRakshak%20AI&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Flood%20Prediction%20%26%20Early%20Warning&descAlignY=60&descSize=20" alt="JalRakshak AI banner" width="100%"/>
+# 🌊 JALRAKSHAK AI (जल रक्षक)
 
-### 🌊 Predict floods early. Protect lives. Build resilient communities.
+### Protector of Water — AI-Powered Flood Prediction & Early Warning
 
-<br/>
+**Predict floods early. Protect lives. Build resilient communities.**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-2c9cdb?style=for-the-badge)](https://jal-rakshak-ai-flood-prediction.vercel.app/)
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jal-rakshak-ai-flood-prediction.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathi2305/JalRakshak-AI-Flood-Prediction-)
-
-![Status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)
-![Made with Love](https://img.shields.io/badge/made%20with-❤-red?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/sathi2305/JalRakshak-AI-Flood-Prediction-?style=flat-square&color=yellow)
-![Forks](https://img.shields.io/github/forks/sathi2305/JalRakshak-AI-Flood-Prediction-?style=flat-square&color=orange)
+[![Live Demo](https://img.shields.io/badge/🔴_Live_Demo-Online-2c9cdb?style=for-the-badge)](https://jal-rakshak-ai-flood-prediction.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Machine Learning](https://img.shields.io/badge/AI-Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](#-tech-stack)
+[![PWA](https://img.shields.io/badge/PWA-Installable-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](#-pwa--offline-capabilities)
+[![License](https://img.shields.io/badge/License-MIT-00c896?style=for-the-badge)](LICENSE)
 
 <br/>
 
-**[🌐 Live Demo](https://jal-rakshak-ai-flood-prediction.vercel.app/)** &nbsp;•&nbsp; **[✨ Features](#-features)** &nbsp;•&nbsp; **[🛠 Tech Stack](#-tech-stack)** &nbsp;•&nbsp; **[⚙️ Getting Started](#️-getting-started)** &nbsp;•&nbsp; **[🤝 Contributing](#-contributing)**
+### 🔗 [**⚡ LAUNCH THE LIVE PLATFORM ⚡**](https://jal-rakshak-ai-flood-prediction.vercel.app/)
+
+**`https://jal-rakshak-ai-flood-prediction.vercel.app/`**
+
+<br/>
+
+[Overview](#-overview) · [Key Features](#-core-capabilities) · [How It Works](#️-system-architecture) · [Tech Stack](#-tech-stack) · [API Reference](#-api-reference) · [Setup](#-getting-started) · [Deployment](#️-deployment)
 
 </div>
 
 ---
 
-<div align="center">
+## 📌 Overview
 
-## 📖 About
+Floods rarely arrive without warning signs. Heavy rainfall, rising river levels and saturated soil all show up in the data days or hours before water reaches a home. The problem is that this data is scattered, technical and hard for ordinary people and local authorities to act on in time.
 
-</div>
-
-<p align="center">
-<b>JalRakshak AI</b> ("Jal Rakshak" means <i>Protector of Water</i>) is an intelligent flood prediction platform that analyzes environmental and hydrological data to forecast flood risk and deliver timely, easy-to-understand alerts.
-<br/><br/>
-Our goal is simple: give communities and authorities the lead time they need to prepare, evacuate and reduce damage.
-</p>
+**JalRakshak AI** (जल रक्षक — *"protector of water"*) closes that gap. It takes environmental and hydrological inputs, runs them through an AI prediction model, and turns the result into a clear **risk score, verdict and alert** that anyone can understand at a glance, so communities get the lead time they need to prepare, evacuate and reduce damage.
 
 ---
 
-<div align="center">
+## ✨ Core Capabilities
 
-## 🚀 Live Demo
+### 🤖 AI Flood Risk Prediction
+Enter rainfall, river level and weather conditions, and the model returns a flood likelihood with a risk score and a plain-language verdict.
 
-<a href="https://jal-rakshak-ai-flood-prediction.vercel.app/">
-  <img src="https://img.shields.io/badge/👉_Try_JalRakshak_AI_Now-2c9cdb?style=for-the-badge&logoColor=white" alt="Try the live demo"/>
-</a>
+### 🎚️ Visual Risk Gauge
+A color-coded risk indicator turns an abstract model output into an instantly readable status (Low · Moderate · High · Critical), built for people who need an answer fast, not a paragraph.
 
-<br/><br/>
+### 🚨 Early Warning Alerts
+Clear, actionable alerts and safety guidance matched to the predicted risk level, so users know what to do next, not just what might happen.
 
-🔗 **https://jal-rakshak-ai-flood-prediction.vercel.app/**
+### 📊 Interactive Dashboard
+A clean dashboard with trends, charts and a summary of current conditions, giving authorities and residents a single view of the situation.
 
-<!-- Add a screenshot or GIF here:
-<img src="./assets/demo.gif" alt="JalRakshak AI demo" width="85%"/>
--->
+### 🗺️ Flood Risk Map
+Geographic visualization of at-risk regions so patterns and hotspots are easy to spot.
 
-</div>
+### 📱 Fully Responsive
+Works smoothly on mobile, tablet and desktop, because warnings are most useful on the device people actually have in hand.
 
----
+### 📡 Offline-Friendly Safety Info
+Core safety guidance stays available even when connectivity drops, which is exactly when floods tend to strike.
 
-<div align="center">
-
-## ✨ Features
-
-</div>
-
-<div align="center">
-
-| 🤖 **AI Predictions** | 📊 **Risk Assessment** | 🚨 **Early Warnings** |
-|:---:|:---:|:---:|
-| Machine-learning model forecasts flood likelihood from input data | Clear risk levels so anyone can understand the situation at a glance | Timely alerts that support faster, safer decisions |
-
-| 🎨 **Modern Interface** | 📱 **Fully Responsive** | ⚡ **Fast & Reliable** |
-|:---:|:---:|:---:|
-| Clean, intuitive dashboard | Works on mobile, tablet and desktop | Deployed on Vercel for quick global access |
-
-</div>
+### 🌐 Multilingual Interface
+Designed for Indian communities, with language support so warnings are understood by the people who need them.
 
 ---
 
-<div align="center">
+## 🧭 Who It's For
 
-## 🛠 Tech Stack
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-<!-- Edit the badges above to match what your project actually uses (React, Next.js, Flask, scikit-learn, TensorFlow, etc.) -->
-
-</div>
+| Persona | How JalRakshak AI Helps |
+|---|---|
+| **Residents in flood-prone areas** | Simple risk status and clear safety steps |
+| **Local authorities & disaster teams** | Early indicators to plan evacuation and resources |
+| **Farmers & rural communities** | Advance notice to protect crops, livestock and property |
+| **Students & researchers** | An open, extensible base for flood-prediction work |
 
 ---
 
-<div align="center">
-
-## 🧠 How It Works
-
-</div>
-
-<div align="center">
+## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
-    A[📥 Input Data<br/>Rainfall · River Level · Weather] --> B[🧹 Preprocessing]
-    B --> C[🤖 AI Model]
-    C --> D[📊 Flood Risk Score]
-    D --> E[🚨 Alert & Dashboard]
+flowchart TD
+    A[Rainfall · River Level · Weather Data] --> B[Data Preprocessing]
+    B --> C[AI Prediction Model]
+    C --> D[Flood Risk Score<br/>0-100 + Verdict]
+
+    D --> E[Risk Gauge]
+    D --> F[Early Warning Alerts]
+    D --> G[Interactive Dashboard]
+    D --> H[Flood Risk Map]
+
+    F --> I[Safety Guidance<br/>for Residents & Authorities]
 ```
 
-</div>
+**Flow:** environmental inputs enter the platform → they are cleaned and normalized → the AI model estimates flood likelihood → the result drives the risk gauge, alerts, dashboard and map, ending in clear safety guidance.
 
 ---
 
-<div align="center">
+## 🧰 Tech Stack
 
-## ⚙️ Getting Started
+| Layer | Technology |
+|---|---|
+| **Frontend** | React, TypeScript, Tailwind CSS |
+| **Visualization** | Charts & risk gauge components |
+| **Backend** | Node.js / Python service for prediction |
+| **AI / ML** | Machine-learning model for flood-risk prediction |
+| **PWA** | Installable app with offline safety info |
+| **Deployment** | Vercel |
 
-</div>
+<!-- ✏️ EDIT: replace the rows above with the exact libraries your project uses. -->
+
+---
+
+## 📱 PWA & Offline Capabilities
+
+JalRakshak AI can be installed as a Progressive Web App and keeps key safety guidance cached, so essential information remains available when the network is unreliable during severe weather.
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Git
-- Node.js (v18+) and/or Python (3.9+), depending on the parts you run
+- **Node.js 18+**
+- **Python 3.9+** *(only if you run the ML backend locally)*
+- Any API keys your data sources require
 
 ### Installation
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/sathi2305/JalRakshak-AI-Flood-Prediction-.git
-
-# 2. Move into the project folder
 cd JalRakshak-AI-Flood-Prediction-
 
-# 3. Install dependencies
-npm install          # for the web app
-# pip install -r requirements.txt   # for the ML / backend part
+# 2. Install dependencies
+npm install
 
-# 4. Start the development server
+# 3. Configure environment
+cp .env.example .env
+
+# 4. Start the dev server
 npm run dev
 ```
 
-Then open **http://localhost:3000** (or the port shown in your terminal).
+The app runs at **http://localhost:3000**
 
----
+### Environment Variables
 
-<div align="center">
-
-## 📂 Project Structure
-
-</div>
-
-```text
-JalRakshak-AI-Flood-Prediction-/
-├── public/            # Static assets
-├── src/               # Application source code
-├── model/             # Trained model & ML scripts
-├── README.md
-└── ...
+```env
+# Add the keys your project needs, for example:
+API_KEY=
 ```
 
-<!-- Update this tree to match your real folder structure. -->
+> 🔐 `.env` is gitignored. Never commit API keys, and rotate immediately if one is ever exposed.
 
 ---
 
-<div align="center">
+## 🔌 API Reference
 
-## 🗺 Roadmap
+**Base URL:** `https://jal-rakshak-ai-flood-prediction.vercel.app/api`
 
-</div>
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/predict` | Return flood risk score and verdict for the given inputs |
+| `GET` | `/risk-levels` | List risk categories and thresholds |
+| `GET` | `/health` | Service health check |
+
+<!-- ✏️ EDIT: match these endpoints to your real routes, or delete this section if the app has no public API. -->
+
+---
+
+## 🗂️ Project Structure
+
+```
+JalRakshak-AI-Flood-Prediction-/
+├── public/                    # Static assets, manifest, offline cache
+├── api/                       # Serverless / backend routes
+├── model/                     # Trained model & ML scripts
+├── vercel.json                # Vercel configuration
+├── .env.example               # Environment template
+└── src/
+    ├── main.tsx / App.tsx     # Entry point & routing
+    ├── components/
+    │   ├── Hero.tsx           # Landing section
+    │   ├── Predictor.tsx      # Input form & prediction
+    │   ├── RiskGauge.tsx      # Risk indicator
+    │   ├── Dashboard.tsx      # Trends & summary
+    │   └── Alerts.tsx         # Warning messages
+    ├── utils/                 # Helpers & language files
+    └── types.ts               # Shared types
+```
+
+<!-- ✏️ EDIT: replace with your real folder tree. -->
+
+---
+
+## ☁️ Deployment
+
+Deployed on **Vercel**.
+
+| Setting | Value |
+|---|---|
+| **Build Command** | `npm run build` |
+| **Output Directory** | `dist` |
+| **Environment Variables** | Add any required keys as secrets |
+
+**Live URL:** https://jal-rakshak-ai-flood-prediction.vercel.app/
+
+---
+
+## 🗺️ Roadmap
 
 - [x] AI-based flood risk prediction
 - [x] Live deployment on Vercel
-- [ ] Real-time weather & river-level API integration
-- [ ] Location-based alerts (SMS / email / push)
-- [ ] Interactive flood risk map
-- [ ] Multi-language support (English, Hindi, Tamil)
+- [ ] Real-time weather and river-level API integration
+- [ ] Location-based alerts via SMS, email and push notifications
+- [ ] Interactive, live flood risk map
+- [ ] Expanded regional language support
+- [ ] Historical flood data analysis and model retraining
+- [ ] Mobile app for field teams
 
 ---
-
-<div align="center">
 
 ## 🤝 Contributing
 
-</div>
+```bash
+git checkout -b feature/your-feature-name
+git commit -m "Add: clear description of your change"
+git push origin feature/your-feature-name
+# Open a Pull Request
+```
 
-<p align="center">
-Contributions, issues and feature requests are welcome!
-</p>
+Contributions, issues and feature requests are welcome.
 
-1. Fork the project
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m "Add AmazingFeature"`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
+---
+
+## 📄 License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 👤 Author
+
+**Sathiyamoorthi**
+
+[![GitHub](https://img.shields.io/badge/GitHub-sathi2305-181717?style=flat-square&logo=github)](https://github.com/sathi2305)
 
 ---
 
 <div align="center">
 
-## 📄 License
+### ⭐ If this project helps you, consider starring the repository.
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+**[🌊 Try the Live Platform](https://jal-rakshak-ai-flood-prediction.vercel.app/)**
 
-<br/>
-
-## 👨‍💻 Author
-
-**Sathi**
-
-[![GitHub](https://img.shields.io/badge/GitHub-sathi2305-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathi2305)
-
-<br/>
-
-### ⭐ If you find this project useful, please give it a star!
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c9cdb,50:203a43,100:0f2027&height=120&section=footer" alt="footer" width="100%"/>
-
-<sub>Built with 💙 to protect communities from floods.</sub>
+*जल रक्षक — because every community deserves time to prepare.*
 
 </div>
