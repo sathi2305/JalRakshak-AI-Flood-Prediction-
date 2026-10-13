@@ -1,0 +1,6 @@
+{
+  "name": "Jai Rakshak - AI Flood Prediction & Early Warning System",
+  "description": "AI-Powered Flood Prediction and Early Warning System featuring interactive India geospatial risk maps, real-time river and rainfall telemetry, transparent risk scoring engine, and district-level emergency advisories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
